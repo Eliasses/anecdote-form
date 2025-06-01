@@ -30,7 +30,7 @@
 
       // Remplace ceci par ton URL d'API Supabase
       const SUPABASE_URL = 'https://sbmwttzxkkpbfdjfndfs.supabase.co';
-      const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNibXd0dHp4a2twYmZkamZuZGZzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg3ODY5NDYsImV4cCI6MjA2NDM2Mjk0Nn0.aP4LcEI9Xamh_GPd4p9_D48MSmF3CsLyfDtVBa6vY5E'; // à récupérer dans Supabase > Project settings > API > anon key
+      const SUPABASE_KEY = '<eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNibXd0dHp4a2twYmZkamZuZGZzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg3ODY5NDYsImV4cCI6MjA2NDM2Mjk0Nn0.aP4LcEI9Xamh_GPd4p9_D48MSmF3CsLyfDtVBa6vY5E>'; // à récupérer dans Supabase > Project settings > API > anon key
 
       const { data, error } = await fetch(`${SUPABASE_URL}/rest/v1/anecdotes`, {
         method: 'POST',
